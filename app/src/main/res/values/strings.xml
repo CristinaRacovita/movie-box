@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="sing_in">SIGN IN</string>
+    <string name="guest_sing_in">SIGN IN AS GUEST</string>
+    <string name="username">Username</string>
+    <string name="pass">Password</string>
+    <string name="welcome">Welcome,</string>
+    <string name="usernameMainText">Guest</string>
+    <string name="profileText">PROFILE</string>
+    <string name="course1">MOVIES</string>
+    <string name="course2">COURSE 3.2</string>
+    <string name="add">ADD</string>
+    <string name="refresh">REFRESH</string>
+    <string name="title">Title</string>
+    <string name="director">Director</string>
+    <string name="rating">Rating</string>
+    <string name="genre">Genre</string>
+    <string name="rated">Is R Rated?</string>
+    <string name="favourite">Is Favourite?</string>
+    <string name="tvshows">TV SHOWS</string>
+    <string name="long_text">
+        <i>Film</i>, also called movie, motion picture or moving picture, is a visual art-form used to simulate experiences that communicate ideas, stories, perceptions, feelings, beauty, or atmosphere through the use of moving images. These images are generally accompanied by sound, and more rarely, other sensory stimulations. The word "cinema", short for cinematography, is often used to refer to filmmaking and the film industry, and to the art form that is the result of it.\n\n
+The moving images of a film are created by photographing actual scenes with a motion-picture camera, by photographing drawings or miniature models using traditional animation techniques, by means of CGI and computer animation, or by a combination of some or all of these techniques, and other visual effects.\n\n
+Traditionally, films were recorded onto celluloid film stock through a photochemical process and then shown through a movie projector onto a large screen. Contemporary films are often fully digital through the entire process of production, distribution, and exhibition, while films recorded in a photochemical form traditionally included an analogous optical soundtrack (a graphic recording of the spoken words, music and other sounds that accompany the images which runs along a portion of the film exclusively reserved for it, and is not projected).\n\n
+Films are cultural artifacts created by specific cultures. They reflect those cultures, and, in turn, affect them. Film is considered to be an important art form, a source of popular entertainment, and a powerful medium for educating—or indoctrinating—citizens. The visual basis of film gives it a universal power of communication. Some films have become popular worldwide attractions through the use of dubbing or subtitles to translate the dialog into other languages.\n\n
+The individual images that make up a film are called frames. In the projection of traditional celluloid films, a rotating shutter causes intervals of darkness as each frame, in turn, is moved into position to be projected, but the viewer does not notice the interruptions because of an effect known as persistence of vision, whereby the eye retains a visual image for a fraction of a second after its source disappears. The perception of motion is partly due to a psychological effect called the phi phenomenon.\n\n
+The name "film" originates from the fact that photographic film (also called film stock) has historically been the medium for recording and displaying motion pictures. Many other terms exist for an individual motion-picture, including picture, picture show, moving picture, photoplay, and flick. The most common term in the United States is movie, while in Europe film is preferred. Common terms for the field in general include the big screen, the silver screen, the movies, and cinema; the last of these is commonly used, as an overarching term, in scholarly texts and critical essays. In early years, the word sheet was sometimes used instead of screen. \n\n
+    </string>
+
+    <string name="date">Release Date&#160;</string>
+    <string name="datepicker">date picker</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="message">Are you sure you want to delete this movie?</string>
+    <string name="delete">&#160;has been successfully deleted.</string>
+    <string name="space">&#160;</string>
+    <string name="refreshmessage">The list has been refreshed.</string>
+    <string name="preview">Preview Movie</string>
+    <string name="search">Search</string>
+    <string name="addmovie">ADD MOVIE</string>
+    <string name="searhhint">Search Here</string>
+    <string name="discover">DISCOVER</string>
+    <string name="mylist">MY LIST</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movieType">Type</string>
+    <string name="guest">Guest</string>
+    <string name="emaildontexist">email doesn\'t exist</string>
+    <string name="gmail">\@gmail\.com</string>
+    <string name="tvshowsaved">TvShow is saved</string>
+    <string name="moviesaved">Movie is saved</string>
+    <string name="wrong">Username or password is wrong.</string>
+    <string name="pickoption">Select An Option</string>
+    <string name="incomplete">All fields must be completed.</string>
+    <string name="register">REGISTER NOW</string>
+    <string name="alreadyaccount">Have already an account? Sing in..</string>
+    <string name="email">Email</string>
+    <string name="remind">Remember me?</string>
+    <string name="logout">LOG OUT</string>
+    <string name="language">LANGUAGE:&#160;EN</string>
+    <string name="event">Event is saved</string>
+    <string name="ratingstar">/10</string>
+    <string name="nocomm">No comments available</string>
+    <string name="urlImages">https://image.tmdb.org/t/p/w500</string>
+    <string name="allComm">All comments</string>
+    <string name="searchMovieUrl">https://api.themoviedb.org/3/search/movie?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US&amp;query=%1$s&amp;page=1&amp;include_adult=false</string>
+    <string name="searchTvShowUrl">https://api.themoviedb.org/3/search/tv?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US&amp;query=%1$s&amp;page=1&amp;include_adult=false</string>
+    <string name="searchMultiUrl">https://api.themoviedb.org/3/search/multi?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US&amp;query=%1$s&amp;page=1&amp;include_adult=false</string>
+    <string name="searchMovieReviewUrl">https://api.themoviedb.org/3/movie/%1$d/reviews?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US&amp;page=1</string>
+    <string name="searchTvReviewUrl">https://api.themoviedb.org/3/tv/%1$d/reviews?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US&amp;page=1</string>
+    <string name="genreMovieUrl">https://api.themoviedb.org/3/genre/movie/list?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US</string>
+    <string name="genreTvUrl">https://api.themoviedb.org/3/genre/tv/list?api_key=88e2a0a6b40aa88ee65fd8c4d49d6d42&amp;language=en-US</string>
+    <string-array name="genres_array">
+        <item> </item>
+        <item><i>Action</i></item>
+        <item><i>Horror</i></item>
+        <item><i>Comedy</i></item>
+        <item><i>Romance</i></item>
+        <item><i>Fantasy</i></item>
+        <item><i>Adventure</i></item>
+        <item><i>Biography</i></item>
+        <item><i>Drama</i></item>
+        <item><i>Animation</i></item>
+        <item><i>SF</i></item>
+    </string-array>
+</resources>

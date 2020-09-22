@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/LightBlue</item>
+        <item name="colorPrimaryDark">@color/DarkBlue</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.ToolbarStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/DarkBlue</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/LightBlue</item>
+
+    </style>
+
+    <style name="AppTheme.NewStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/LightBlue</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/LightBlue</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/LightGreen</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>
